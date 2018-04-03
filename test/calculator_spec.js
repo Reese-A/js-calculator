@@ -46,7 +46,7 @@ describe("calculatorModule", function() {
     describe('#getTotal', function () {
       it('should be a function that is available on the calculator', function () {
         expect(newCalc.getTotal).to.be.a('function');
-        expect(GLOBAL.getTotal).to.be.undefined;
+        expect(global.getTotal).to.be.undefined;
       });
       it('should return the current total', function () {
         /*CHECK INITIAL VALUE*/
