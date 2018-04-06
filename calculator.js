@@ -17,7 +17,8 @@ function calculatorModule(){
         divide: divide,
         recallMemory: recallMemory,
         saveMemory: saveMemory,
-        clearMemory: clearMemory
+        clearMemory: clearMemory,
+        validate: validate
     };
    return calculator;
 
